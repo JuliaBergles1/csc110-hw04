@@ -69,7 +69,7 @@ def my_for_loop():
 
 # Task 4.b
 def my_while_loop():
-    """ Add your docstring """
+    """ Ask the user to pick an option and keep asking for a menu choice until the user picks the exit option  """
     while True:
         choice = input("Pick an option a, b, or c: ")  # ask the user to choose an option
         if choice == "a":   # repeat the menu if the user chooses a
